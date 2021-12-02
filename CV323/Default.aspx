@@ -12,10 +12,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="Button1" runat="server" Text="Button" CssClass="button" />
-            <asp:Button ID="Button2" runat="server" Text="Button" CssClass="button" />
-            <asp:Button ID="Button3" runat="server" Text="Button" CssClass="button" />
-            <asp:Button ID="Button4" runat="server" Text="Button" CssClass="button" />
+            <asp:Button ID="btnQualifications" runat="server" Text="Qualifications" CssClass="button" />
+            <asp:Button ID="btnAbout" runat="server" Text="About me" CssClass="button" />
+            <asp:Button ID="btnContact" runat="server" CssClass="button" Text="Contact me" />
         </div>
     </form>
 </body>
