@@ -96,6 +96,7 @@
     <Content Include="Web.config" />
     <Content Include="Default.aspx" />
     <Content Include="WebApp_Images\0AC734F8-DC62-428D-9E70-A9E50DAFD9EE.jpeg" />
+    <Content Include="WebApp_Images\loader.gif" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />

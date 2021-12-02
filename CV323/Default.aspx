@@ -15,6 +15,12 @@
             margin-right: auto;
         }
     </style>
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function(e) {
+            const loader = document.querySelector('.loader');
+            $(loader).fadeOut('slow');
+        });
+    </script>
 </head>
 	
 
