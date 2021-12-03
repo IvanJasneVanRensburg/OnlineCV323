@@ -97,6 +97,9 @@
     <Content Include="Default.aspx" />
     <Content Include="WebApp_Images\0AC734F8-DC62-428D-9E70-A9E50DAFD9EE.jpeg" />
     <Content Include="WebApp_Images\loader.gif" />
+    <Content Include="Qualifications.aspx" />
+    <Content Include="AboutMe.aspx" />
+    <Content Include="ContactMe.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -125,6 +128,27 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Qualifications.aspx.designer.vb">
+      <DependentUpon>Qualifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Qualifications.aspx.vb">
+      <DependentUpon>Qualifications.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AboutMe.aspx.designer.vb">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutMe.aspx.vb">
+      <DependentUpon>AboutMe.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ContactMe.aspx.designer.vb">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactMe.aspx.vb">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -135,6 +159,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CV\Ivan Jansen van Rensburg 31683320 CV.pdf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

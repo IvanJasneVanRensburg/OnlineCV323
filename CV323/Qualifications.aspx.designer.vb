@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm1
+Partial Public Class WebForm2
 
     '''<summary>
     '''form1 control.
@@ -23,22 +23,22 @@ Partial Public Class WebForm1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''btnQualifications control.
+    '''btnDefault control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnQualifications As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnDefault As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''btnAbout control.
+    '''btnAboutMe control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents btnAbout As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnAboutMe As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''btnContact control.
@@ -50,29 +50,11 @@ Partial Public Class WebForm1
     Protected WithEvents btnContact As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Image1 control.
+    '''btnDownload control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
-
-    '''<summary>
-    '''Label3 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Label2 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents btnDownload As Global.System.Web.UI.WebControls.Button
 End Class
