@@ -13,8 +13,10 @@
             <asp:Button ID="btnDefault" runat="server" CssClass="button" Text="Main Page" />
             <asp:Button ID="btnAboutMe" runat="server" CssClass="button" Text="About Me" />
             <asp:Button ID="btnContact" runat="server" CssClass="button" Text="Contact Me" />
+            <br />
+            <br />
         </div>
-        <embed src="CV/Ivan Jansen van Rensburg 31683320 CV.pdf"  width="850" height="1250" type="application/pdf">
+        <embed src="CV/Ivan Jansen van Rensburg 31683320 CV.pdf"  width="1000" align="center" height="900" type="application/pdf">
         <p>
         <asp:Button ID="btnDownload" runat="server" CssClass="button" Text="Download CV" />
 
