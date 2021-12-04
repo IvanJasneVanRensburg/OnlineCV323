@@ -6,12 +6,18 @@
 <head runat="server">
     <title></title>
     <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function(e) {
+            const loader = document.querySelector('.loader');
+            $(loader).fadeOut('slow');
+        });
+    </script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="btnDefault" runat="server" CssClass="button" Text="Main Page" />
-            <asp:Button ID="btnAboutMe" runat="server" CssClass="button" Text="About Me" />
+            <asp:Button ID="btnAboutMe" runat="server" CssClass="button" Text="About Me" Visible="False" />
             <asp:Button ID="btnContact" runat="server" CssClass="button" Text="Contact Me" />
             <br />
             <br />

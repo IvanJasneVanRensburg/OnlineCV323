@@ -19,7 +19,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="btnQualifications" runat="server" Text="Qualifications" CssClass="button" />
-            <asp:Button ID="btnAbout" runat="server" Text="About me" CssClass="button" />
+            <asp:Button ID="btnAbout" runat="server" Text="About me" CssClass="button" Visible="False" />
             <asp:Button ID="btnContact" runat="server" CssClass="button" Text="Contact me" />
         </div>
         <asp:Image ID="Image1" runat="server" CssClass="img" Height="494px" ImageUrl="~/WebApp_Images/0AC734F8-DC62-428D-9E70-A9E50DAFD9EE.jpeg" Width="270px" />
